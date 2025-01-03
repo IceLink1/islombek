@@ -1,0 +1,25 @@
+.Projects{
+    width: 100%;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    & div{
+        width: 100%;
+        height: 300px;
+        background: #ffffff;
+    }
+}
+@media (max-width: 1000px){
+    .Projects{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media (max-width: 750px){
+    .Projects{
+        grid-template-columns: 1fr;
+    }
+    
+}

@@ -1,0 +1,28 @@
+.Navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  font-size: 24px;
+}
+.Links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.Link {
+  transition: 0.2s;
+  border-bottom: 2px solid #000;
+}
+.Link:hover {
+  border-bottom: 2px solid #fff;
+}
+@media (max-width: 800px) {
+  .Navbar {
+    height: 15vh;
+  }
+  .Links {
+    width: 80%;
+  }
+}

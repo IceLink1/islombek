@@ -1,0 +1,42 @@
+.Bio {
+  width: 100%;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Bio-Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+}
+.Bio-Links {
+  & div {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+.Bio-Image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border: 5px solid #fff;
+  }
+}
+@media (max-width: 800px) {
+  .Bio {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+  .Bio-Image {
+    grid-row-start: 2;
+  }
+}
