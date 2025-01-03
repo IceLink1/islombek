@@ -51,7 +51,7 @@ export default function Home() {
               <XIcon />
             </Link>
           </div>
-          <h2>Islom_jalilov@gmail.com</h2>
+          <h2>ijalilov21@gmail.com</h2>
         </div>
       </div>
       <div className="Home-Image">
